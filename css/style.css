@@ -315,6 +315,7 @@ main {
     padding-left: auto;
     padding-right: 15%;
     position: relative;
+    margin-right: 5%;
 
     /* border: 1px solid red; */
 
@@ -356,8 +357,9 @@ main {
     min-height: 400px;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 5%;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .about .a_inner .aTitle h3 {
@@ -402,13 +404,13 @@ main {
     height: auto;
     display: flex;
     justify-content: space-between;
-    gap: 20%;
+    /* gap: 20%; */
     z-index: -1;
     /* padding-top: 5%; */
     padding: 5% 0;
     position: relative;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .about .a_inner .vision .backIMG .lIMG {
@@ -433,7 +435,7 @@ main {
     transform: translateY(-50%);
     word-break: keep-all;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .about .a_inner .vision .backIMG .aText strong {
@@ -458,7 +460,7 @@ main {
     position: absolute;
     right: 25%;
     bottom: 20%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .about .a_inner .vision .backIMG .pl h4 {
