@@ -328,7 +328,7 @@ main {
 
 .mainIMG .rMain .rMain_bottom .shopBTN a span {
     text-align: center;
-    padding: 40% 80%;
+    padding: 12px 33px;
     border: 1px solid #333;
     border-radius: 50px;
 }
@@ -342,10 +342,9 @@ main {
 /* ABOUT US */
 .about {
     width: 100%;
-    min-height: 500px;
-    /* padding-top: 5%; */
     padding: 5% 0;
     margin: 5% auto;
+    position: relative;
 
     outline: 1px solid pink;
     outline-offset: 1px;
@@ -354,6 +353,7 @@ main {
 
 .about .a_inner {
     max-width: 1420px;
+    min-height: 400px;
     margin: 0 auto;
     position: relative;
 
@@ -393,19 +393,22 @@ main {
 .about .a_inner .vision {
     width: 100%;
     /* display: flex; */
-    position: relative;
+    /* position: relative; */
+    /* padding-top: 5%; */
 }
 
 .about .a_inner .vision .backIMG {
     width: 100%;
     height: auto;
     display: flex;
-    /* position: relative; */
     justify-content: space-between;
     gap: 20%;
     z-index: -1;
+    /* padding-top: 5%; */
+    padding: 5% 0;
+    position: relative;
 
-    padding-top: 5%;
+    border: 1px solid red;
 }
 
 .about .a_inner .vision .backIMG .lIMG {
@@ -427,7 +430,7 @@ main {
     position: absolute;
     left: 17%;
     top: 50%;
-    transform: translateY(-90%);
+    transform: translateY(-50%);
     word-break: keep-all;
 
     border: 1px solid red;
@@ -454,7 +457,7 @@ main {
 .about .a_inner .vision .backIMG .pl {
     position: absolute;
     right: 25%;
-    bottom: 25%;
+    bottom: 20%;
     border: 1px solid red;
 }
 
@@ -648,9 +651,9 @@ main {
         padding-left: 2%;
     }
 
-    .mainIMG .rMain .rMain_bottom .shopBTN a span {
-        padding: 30% 60%;
-    }
+    /* .mainIMG .rMain .rMain_bottom .shopBTN a span {
+        padding: 10px 20px;
+    } */
 
     .about .a_inner .vision .backIMG .aText {
         max-width: 55%;
