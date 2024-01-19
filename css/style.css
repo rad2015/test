@@ -357,9 +357,8 @@ main {
     min-height: 400px;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 5%;
 
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .about .a_inner .aTitle h3 {
@@ -394,23 +393,17 @@ main {
 
 .about .a_inner .vision {
     width: 100%;
-    /* display: flex; */
-    /* position: relative; */
-    /* padding-top: 5%; */
 }
 
 .about .a_inner .vision .backIMG {
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: space-between;
-    /* gap: 20%; */
     z-index: -1;
-    /* padding-top: 5%; */
-    padding: 5% 0;
+    padding: 10% 0;
     position: relative;
 
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .about .a_inner .vision .backIMG .lIMG {
@@ -435,7 +428,7 @@ main {
     transform: translateY(-50%);
     word-break: keep-all;
 
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .about .a_inner .vision .backIMG .aText strong {
@@ -460,7 +453,7 @@ main {
     position: absolute;
     right: 25%;
     bottom: 20%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .about .a_inner .vision .backIMG .pl h4 {
@@ -540,7 +533,7 @@ main {
     }
 
     .about .a_inner .vision .backIMG .pl {
-        right: 30%;
+        right: 5%; bottom: 0;
     }
 
 }
@@ -660,7 +653,7 @@ main {
     .about .a_inner .vision .backIMG .aText {
         max-width: 55%;
         left: 5%;
-        /* transform: translateY(-100%); */
+        transform: translateY(-70%);
     }
 
 }
