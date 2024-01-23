@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>김나영-TheOrdinary_반응형평가</title>
+    <link rel="shoutcut icon" href="./image/theordinary_black.svg">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +15,30 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;800&family=Raleway:wght@300;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- slick plugin - css -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" /> -->
 
     <!-- script -->
     <script src="./js/jquery-1.11.3.min.js"></script>
-    <script src="./js/jquery.effects.core.js"></script>
-    <script src="./js//jquery.slicknav.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- <script src="./js/jquery.effects.core.js"></script> -->
+    <!-- <script src="./js//jquery.slicknav.js"></script> -->
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
     <script src="./js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+
+        new WOW().init();
+
+    </script>
+
 </head>
 
 <body>
@@ -168,7 +189,7 @@
 
 
             <!-- About Us -->
-            <div class="about">
+            <div class="about animate__fadeInUp">
                 <div class="a_inner">
                     <div class="aTitle">
                         <h3>About Us</h3>
@@ -186,11 +207,10 @@
                             <div class="rIMG">
                                 <img src="./image/right_IMG.jpg" alt="back02">
                             </div>
-                            
+
                             <div class="aText">
                                 <strong>진정성 있는 임상 스킨케어<br>디 오디너리 <span>The Ordinary.</span></strong>
                                 <p>디오디너리는 흔히 쓰이면서도 효과적인 스킨케어 임상 기술을 담은 브랜드입니다.
-                                    <br>
                                     건강한 피부를 위한 유효 성분들을 상품명에 그대로 보여주며, 합리적인 가격으로 제공합니다.
                                     디오디너리가 혁신적인 이유는 제품에 담기 기술이 새롭기 때문이 아니라 브랜드와 정직함과 진정성에 있습니다.
                                     <br><br>
@@ -207,9 +227,229 @@
                 </div>
             </div>
 
+            <!-- BANNER -->
+            <div id="banner">
+                <!-- <div class="b_inner"> -->
+                <ul class="b_inner">
+                    <li><img src="./image/banner01.jpg" alt="banner01"></li>
+                    <li><img src="./image/banner02.jpg" alt="banner02"></li>
+                </ul>
+                <!-- </div> -->
+
+            </div>
+
+
+            <!-- BEST SELLERS : Slick Slider -->
+            <div id="best-wrap">
+                <div class="b_inner">
+
+                    <div class="bTitle">
+                        <h3>Best Sellers</h3>
+                        <div class="bLine">
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="slider">
+                        <div class="best-list">
+
+                            <!-- 1 -->
+                            <div class="items">
+
+                                <p>
+                                    <a href="#">
+                                        <img src="./image/item01.jpg" alt="item01">
+                                        <strong>내추럴 모이스처라이징 팩터스 + HA</strong>
+                                        <span>피부의 수분장벽을 서포트하는 산뜻하고 크리미한 모이스처라이저</span></a>
+                                </p>
+
+                            </div>
+                            <!-- 2 -->
+                            <div class="items">
+
+                                <p>
+                                    <a href="#">
+                                        <img src="./image/item02.jpg" alt="item02">
+                                        <strong>멀티-펩타이드 래쉬 앤 브로우 세럼</strong>
+                                        <span>속눈썹과 눈썹을 풍성하고 튼튼하게 가꾸어 줍니다.</span></a>
+                                </p>
+
+                            </div>
+                            <!-- 3 -->
+                            <div class="items">
+
+                                <p>
+                                    <a href="#">
+                                        <img src="./image/item03.png" alt="item03">
+                                        <strong>글리코릭 애시드 7% 엑스폴리에이팅 토너</strong>
+                                        <span>피부의 톤과 결, 세월의 흔적을 케어하는 고강도 AHA 각질제거 토너</span></a>
+                                </p>
+
+                            </div>
+                            <!-- 4 -->
+                            <div class="items">
+
+                                <p>
+                                    <a href="#">
+                                        <img src="./image/item04.jpg" alt="item04">
+                                        <strong>스쿠알란 클렌저</strong>
+                                        <span>순하고 보습력이 높은 페이스 클렌저</span></a>
+                                </p>
+
+                            </div>
+                            <!-- 5 -->
+                            <div class="items">
+
+                                <p>
+                                    <a href="#">
+                                        <img src="./image/item05.jpg" alt="item05">
+                                        <strong>멀티-펩타이드 + 카퍼 펩타이즈 1% 세럼</strong>
+                                        <span>세월의 흔적을 케어하며, 항산화를 서포트하는 세럼</span></a>
+                                </p>
+
+                            </div>
+                            <!-- 6 -->
+                            <div class="items">
+
+                                <p>
+                                    <a href="#">
+                                        <img src="./image/item06.jpg" alt="item06">
+                                        <strong>히알루로닉 애시드 2% + B5</strong>
+                                        <span>히알루론산 성분으로 피부를 부드럽고 탄탄하게 가꾸는 세럼</span></a>
+                                </p>
+
+                            </div>
+                            <!-- 7 -->
+                            <div class="items">
+
+                                <p>
+                                    <a href="#">
+                                        <img src="./image/item07.jpg" alt="item07">
+                                        <strong>멀티-펩타이드 아이 세럼</strong>
+                                        <span>눈가를 부드럽고 환하게 가꾸며, 붓기를 케어하는 세럼</span></a>
+                                </p>
+
+                            </div>
+                            <!-- 8 -->
+                            <div class="items">
+
+                                <p>
+                                    <a href="#">
+                                        <img src="./image/item08.jpg" alt="item08">
+                                        <strong>수딩 앤 배리어 서포트 세럼</strong>
+                                        <span>피부 장벽과 붉어진 피부를 케어하는 진정 솔루션 세럼</span></a>
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- BLOG -->
+            <div id="bl_wrap">
+                <div class="bl_inner">
+
+                    <div class="blTitle">
+                        <h3>The Ordinary Blog</h3>
+                        <div class="blLine">
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="item">
+                            <h4>01</h4>
+                            <p>디오디너리의<br>초보자를 위한 사용 가이드</p>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="./image/IMG_01.png" alt="01">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <p>당신을 위해 준비한<br>베스트셀러 단계별 사용법</p>
+                            <a href="#"><span>READ MORE</span></a>
+                        </div>
+                        <div class="item">
+                            <h4>02</h4>
+                            <p>주목할만한 제품:<br>
+                                글리코릭 애시드<br>
+                                엑스폴리에이팅 토너</p>
+                        </div>
+                        <div class="item">
+                            <p>수분을 가득 머금은<br>브라이팅 효과의 핵심 토너</p>
+                            <a href="#"><span>READ MORE</span></a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="./image/IMG_02.png" alt="02">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
         </main>
 
-        <footer></footer>
+
+
+<!-- ========================================================================
+        [ FOOTER ]
+========================================================================= -->
+        <footer>
+            <div class="f_wrap">
+                <div class="f_inner">
+
+                    <div class="copyright">
+                        <p>© DECIEM Beauty Group Inc. 2022. All rights reserved.</p>
+                    </div>
+
+                    <div class="ceo">
+                        <p>CEO : Nicola Leanne Reddington, Christopher Kindersley Wood</p>
+                    </div>
+
+                    <div class="info">
+                        <ul>
+                            <li><a href="">• 회사소개</a></li>
+                            <li><a href="">• 채용공고</a></li>
+                            <li><a href="">• 공지사항</a></li>
+                            <li><a href="">• 자주묻는질문</a></li>
+                            <li><a href="">• 1:1문의</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="access">
+                        <ul>
+                            <li><a href="">이용약관</a></li>
+                            <li><a href="">위치정보 이용약관</a></li>
+                            <li><a href="">개인정보처리방침</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sns">
+                        <ul>
+                            <li><a href="https://www.facebook.com/theordinary" target="_blank"><img
+                                        src="./image/facebook.png" alt="페이스북"></a></li>
+                            <li><a href="https://www.instagram.com/theordinary/" target="_blank"><img
+                                        src="./image/instagram.png" alt="인스타그램"></a></li>
+                            <li><a href="https://www.youtube.com/deciem" target="_blank"><img src="./image/youtube.png"
+                                        alt="유튜브"></a></li>
+                            <li><a href="https://www.tiktok.com/@theordinary" target="_blank"><img
+                                        src="./image/tictok.png" alt="틱톡"></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="blank"></div>
+
+                </div>
+            </div>
+        </footer>
 
         <!-- Scroll Top Btn -->
         <div>
@@ -222,6 +462,7 @@
 
 
     <!-- script -->
+    
     <script>
         let toggleButton = document.getElementById("toggle-button")
         toggleButton.addEventListener("click", () => {
@@ -229,6 +470,7 @@
                 line.classList.toggle("active"));
         })
     </script>
+
 
 </body>
 
