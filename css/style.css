@@ -211,6 +211,7 @@ header nav.menu ul.nav-list li ul li a:hover {
 
 .mainIMG .lMain .main1 img {
     width: 100%;
+    display: block;
 }
 
 /* [ main_right ] */
@@ -499,6 +500,7 @@ header nav.menu ul.nav-list li ul li a:hover {
 
 #banner ul.b_inner li img {
     width: 100%;
+    display: block;
 }
 
 
